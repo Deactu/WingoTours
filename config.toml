@@ -2,6 +2,9 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
+relativeURLs = "true"
+baseURL = "/"
+
 title = "Hugo Story"
 theme = "hugo-story"
 
