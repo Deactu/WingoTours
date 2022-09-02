@@ -1,9 +1,7 @@
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Spotlight"
+style: "style2 orient-left content-align-left image-position-center onscroll-image-fade-in color10"
+title : "Wine Bus Service"
 content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight02.jpg"
+  combines 3 different products together: <ul><li>Wine and gastro tour.</li> <li>City tour.</li> <li>Entertainment program.</li></ul> <p>During the tree hours visitors have the opportunity to get all these services in a short time, very efficiently.</p>
+
+image: "images/fon2.jpg"
