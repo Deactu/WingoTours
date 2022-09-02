@@ -11,6 +11,9 @@
 		> .color#{$n} {
 			background-color: _palette(color#{$n});
 		}
+		> .color#{10} {
+			background-color: rgb(206, 124, 117)
+		}
 	}
 
 	#wrapper {
