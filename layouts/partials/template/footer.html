@@ -2,6 +2,7 @@
 <footer class="wrapper style1 align-center">
     <div class="inner">
         <hr style="background-color: rgb(177, 79, 70);">
+        <h2>Contact us</h2>
         <ul class="icons">
             {{ with .Site.Params.social.github }}<li><a target="_blank" href="{{.}}" 
                 class="icon brands style2 fa-github"><span class="label">Github</span></a></li>{{end}}
@@ -15,7 +16,11 @@
                 class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>{{end}}
             {{ with .Site.Params.social.email }}<li><a target="_blank" href="mailto:{{.}}" 
                 class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>{{end}}
+            {{ with .Site.Params.social.tripadvisor }}<li><a target="_blank" href="{{.}}" 
+                class="icon brands style2 fa-tripadvisor"><span class="label">Tripadvisor</span></a></li>{{end}}
+            {{ with .Site.Params.social.whatsapp }}<li><a target="_blank" href="{{.}}" 
+                class="icon brands style2 fa-whatsapp"><span class="label">WhatsApp</span></a></li>{{end}}
         </ul>
-        <p>Wingo Tours &copy; 2022. Deactu</p>
-</div>
+        <p><strong>Wingo Tours &copy; 2022</strong>. Deactu. Hugo Story by CaressOfSteel</p>
+    </div>
 </footer>

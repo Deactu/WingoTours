@@ -29,3 +29,6 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 [Params.social]
   instagram = "https://instagram.com/wingotours"
   facebook = "https://facebook.com/WinGoTours"
+  email = "info@wingo.tours"
+  tripadvisor = "https://www.tripadvisor.com/Attraction_Review-g294195-d14135104-Reviews-Wingo_Tours-Tbilisi.html"
+  whatsapp = "https://api.whatsapp.com/send/?phone=995599920311"
