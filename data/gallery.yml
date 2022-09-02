@@ -1,77 +1,103 @@
-title: "Gallery"
+title: "About us"
 style: "style2 medium lightbox onscroll-fade-in"
 content: |
-  This is a <strong>Gallery</strong> element. It can behave as a lightbox (when given the <code>lightbox</code> class), and you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-gallery">details</a>).
+  <div style="text-align: left;">
+    <p>
+        Project "Wine Bus" is a brainchild of Giorgy Matsaberidze and Sofia Babluani, who was inspired to launch it 
+        after many years planning countless trips for customers in Georgia.
+    </p>  
+    <p>
+      We were always seeking a new way of travel and adventure. The main idea was to make a trip joyful, delicious, 
+      interesting and curious. The project has existed since 2018 and despite the fact that from the beginning it was an 
+      experimental startup - just in a 
+      few months the product has became very interesting and attractive. We can confidently say that the experiment was a success.
+    <p>
+    </p>
+      After 4 successful years of the project's existence we decided to implement our project 
+      in different cities of Europe with the greatest numbers of visitors. 
+      First of all, we focus on countries that have a high culture of drinking wine and other alcoholic beverages.
+    </p>
+    <p>
+      We consider Spain as the first country after Georgia. We intend to move to Spain 
+      in order to use our experience for a correct and efficient implementation of our plan, 
+      and fully participate in company management there.
+    </p>
+  </div>
+  <hr style="background-color: rgb(177, 79, 70);">
 pictures:
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/01.jpg"
-    thumb: "images/gallery/thumbs/01.jpg"
-    button: "Details"
+  - title: "WINEBUS"
+    image: "images/gallery/fulls/WINE0.jpg"
+    thumb: "images/gallery/fulls/WINE0.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/02.jpg"
-    thumb: "images/gallery/thumbs/02.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE1.jpg"
+    thumb: "images/gallery/fulls/WINE1.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/03.jpg"
-    thumb: "images/gallery/thumbs/03.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE2.jpg"
+    thumb: "images/gallery/fulls/WINE2.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/04.jpg"
-    thumb: "images/gallery/thumbs/04.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE3.jpg"
+    thumb: "images/gallery/fulls/WINE3.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/05.jpg"
-    thumb: "images/gallery/thumbs/05.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE4.jpg"
+    thumb: "images/gallery/fulls/WINE4.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/06.jpg"
-    thumb: "images/gallery/thumbs/06.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE5.jpg"
+    thumb: "images/gallery/fulls/WINE5.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/07.jpg"
-    thumb: "images/gallery/thumbs/07.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE6.jpg"
+    thumb: "images/gallery/fulls/WINE6.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/08.jpg"
-    thumb: "images/gallery/thumbs/08.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE7.jpg"
+    thumb: "images/gallery/fulls/WINE7.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/09.jpg"
-    thumb: "images/gallery/thumbs/09.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE8.jpg"
+    thumb: "images/gallery/fulls/WINE8.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/10.jpg"
-    thumb: "images/gallery/thumbs/10.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE9.jpg"
+    thumb: "images/gallery/fulls/WINE9.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/11.jpg"
-    thumb: "images/gallery/thumbs/11.jpg"
-    button: "Details"
+  - image: "images/gallery/fulls/WINE10.jpg"
+    thumb: "images/gallery/fulls/WINE10.jpg"
+    button: "Full-size"
 
-  - title: "Title"
-    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
-    image: "images/gallery/fulls/12.jpg"
-    thumb: "images/gallery/thumbs/12.jpg"
-    button: "Details"
-    
+  - image: "images/gallery/fulls/WINE11.jpg"
+    thumb: "images/gallery/fulls/WINE11.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE12.jpg"
+    thumb: "images/gallery/fulls/WINE12.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE13.jpg"
+    thumb: "images/gallery/fulls/WINE13.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE14.jpg"
+    thumb: "images/gallery/fulls/WINE14.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE15.jpg"
+    thumb: "images/gallery/fulls/WINE15.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE16.jpg"
+    thumb: "images/gallery/fulls/WINE16.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE17.jpg"
+    thumb: "images/gallery/fulls/WINE17.jpg"
+    button: "Full-size"
+
+  - image: "images/gallery/fulls/WINE18.jpg"
+    thumb: "images/gallery/fulls/WINE18.jpg"
+    button: "Full-size"
