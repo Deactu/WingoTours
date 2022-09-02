@@ -1,10 +1,8 @@
 ####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+style: "style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Spotlight"
+title : "Wine tasting tour by wine bus around the city"
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight03.jpg"
+  Excursion is unique due to the fact that wine tasting takes place right on board of the bus, while guests drive around the city, enjoy the architecture and atmosphere. During the tour, you will have an opportunity to taste 5 types of wine, two types of wine guests will taste on the bus board, on the way to the two different wine cellars, and another three in the cellars we are visiting. After the cellar guests will walk along the old streets and visit colorful courtyards. <ul>The trip is conducted on three languages: Georgian, English and Russian. <li>Maximum amount of guests are 14 people.</li> <li>Tour duration - 3 hour.</li> <li>Tour starting time - 17:00 and 20:00.</li></ul> <h2>Wine tasting tour includes:</h2> <ul><li>Wine tasting on wine bus board, three stops: first in an old cellar, second stop in a modern cellar, third stop - walking route of amazing attractions of the city.</li> <li>Guide service.</li> <li>Transportation.</li> <li>5 types of wine.</li> <li>2 type of chacha.</li> <li>Cheese and sweets.</li> <li>Dinner on request.</li></ul>
+
+image: "images/fon3.jpg"

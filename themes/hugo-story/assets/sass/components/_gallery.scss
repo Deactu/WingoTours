@@ -11,7 +11,7 @@
 
 		// Mixin.
 			@mixin transition-gallery($event) {
-				$x: null;
+				$x: 400px;
 				$y: null;
 
 				@if ($event == 'load') {

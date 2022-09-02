@@ -1,0 +1,8 @@
+####################### Spotlight #########################
+style: "style2 orient-left content-align-left image-position-bottom onscroll-image-fade-in color10"
+id: "first"
+title : "Our Mission"
+content: |
+  <p>Our mission is to provide safe, professional, good taste and reasonably priced sightseeing services to our customers.</p> <p>We intend to fill a niche in Europe sightseeing and Enotourism market, that is unmet at this time, because it's our exclusive touristic product, we will show customer places in the cuty that were not shown before, as well as highlight the sides that are known to millions of visitors.</p> <p>We never skimp on a safety and quality of our customer service. We always have and promote fun tours, so that when customers leave us, they remember the good times they had, and often recommend us to their friends and relatives. We offer a very friendly and courteus service - from the moment we meet them until the time to say goodbye to them.</p><p>It is very important to our company to support the ecology of our planet through the clean energy. So for the near future we are going to use only electric transport for our tours.</p>
+
+image: "images/fon4.jpg"
