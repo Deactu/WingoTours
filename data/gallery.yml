@@ -1,6 +1,7 @@
 title: "About us"
 style: "style2 medium lightbox onscroll-fade-in"
 content: |
+  <hr style="background-color: rgb(177, 79, 70);">
   <div style="text-align: left;">
     <p>
       Project Wine Bus is the brainchild of Giorgi Matsaberidze and Sofia Babluani, who was inspired to launch it after many
@@ -18,6 +19,7 @@ content: |
       correct, efficient implementation of the plan and fully participate in the running of the company.
     </p>
   </div>
+  <hr style="background-color: rgb(177, 79, 70);">
 pictures:
   - title: "WINEBUS"
     image: "images/gallery/fulls/WINE0.jpg"
