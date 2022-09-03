@@ -1,6 +1,7 @@
 ####################### Spotlight #########################
 style: "style2 orient-left content-align-left image-position-center onscroll-image-fade-in color10"
 title : "Wine Bus Service"
+id: "service"
 content: |
   combines 3 different products together: <ul><li>Wine and gastro tour.</li> <li>City tour.</li> <li>Entertainment program.</li></ul> <p>During the tree hours visitors have the opportunity to get all these services in a short time, very efficiently.</p>
 

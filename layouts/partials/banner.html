@@ -31,6 +31,7 @@
    nav ul {
        list-style-type: none;
        max-height: 0px;
+       margin: 0px;
        overflow: hidden;
        transition: all 0.5s;
    }
@@ -39,7 +40,7 @@
    }
    nav ul li a {
        display: inline-block;
-       padding: 4px;
+       padding: 0px;
        /* Add your custom styles below to change appearance of links */
        color: #DAE1E7;
        text-decoration: none;
@@ -52,15 +53,20 @@
        display: none;
    }
    #checkbox:checked ~ nav ul {
-       max-height: 200px;
-       padding: 15px 0;
-       transition: all 0.5s;
+       max-height: 250px;
+       padding: 0px 0;
+       transition: all 0.7s;
    }
    
    @media (min-width: 768px) { 
        .menu-icon {
            display: none;
        }
+    
+       label {
+        display: none;
+       }
+
        nav {
            position: relative;
            top: -10px;
@@ -87,15 +93,15 @@
    <body>
        <header class="menu">
            <div class="menu-wrap">
-               <img src="https://wingotours.site/wp-content/uploads/2022/09/logo-with-text-white.png" class="logo-img" alt="Logo">
+               <img src="images/logo.png" class="logo-img" alt="Logo">
                <input type="checkbox" id="checkbox">
                <nav>
                    <ul>
-                       <li><a href="#">Tours</a></li>
-                       <li><a href="#">Service</a></li>
-                       <li><a href="#">Our Mission</a></li>
-                       <li><a href="#">About us</a></li>
-                       <li><a href="#">Contact</a></li>
+                       <li><a href="#tours" class="smooth-scroll-middle">Tours</a></li>
+                       <li><a href="#service" class="smooth-scroll-middle">Service</a></li>
+                       <li><a href="#mission" class="smooth-scroll-middle">Our Mission</a></li>
+                       <li><a href="#about" class="smooth-scroll-middle">About us</a></li>
+                       <li><a href="#contact" class="smooth-scroll-middle">Contact</a></li>
                    </ul>
                </nav>
                <label for="checkbox">
