@@ -1,3 +1,111 @@
+<style>
+   
+   header {
+       height: 70px;
+       background-color: rgb(177, 79, 70);
+       padding: 0px 0;
+   }
+   .menu-wrap {
+       position: relative;
+       display: flex;
+       justify-content: space-between;
+       padding: 0 15px;
+       z-index: 999999999999999;
+   }
+   .logo-img {
+       height: 68px;
+       margin-top: 1px;
+   }
+   .menu-icon {
+       font-size: 40px;
+       margin-top: 15px;
+       color: #ffffff;
+   }
+   nav {
+       position: absolute;
+       background-color:rgb(206, 124, 117);
+       top:70px;
+       left:0;
+       width: 100%;
+   }
+   nav ul {
+       list-style-type: none;
+       max-height: 0px;
+       overflow: hidden;
+       transition: all 0.5s;
+   }
+   nav ul li {
+       padding: 8px 15px;
+   }
+   nav ul li a {
+       display: inline-block;
+       padding: 4px;
+       /* Add your custom styles below to change appearance of links */
+       color: #DAE1E7;
+       text-decoration: none;
+       letter-spacing: 0.05em;
+   }
+   nav ul li a:hover, nav ul li a:focus {
+       color: #eb6f4a;
+   }
+   #checkbox {
+       display: none;
+   }
+   #checkbox:checked ~ nav ul {
+       max-height: 200px;
+       padding: 15px 0;
+       transition: all 0.5s;
+   }
+   
+   @media (min-width: 768px) { 
+       .menu-icon {
+           display: none;
+       }
+       nav {
+           position: relative;
+           top: -10px;
+           background-color: transparent;
+       }
+       nav ul {
+           max-height: 70px;
+           padding: 15px 0;
+           text-align: right;
+       }
+       nav ul li {
+           display: inline-flex;
+           padding-left: 20px;
+       }
+   }
+   </style>
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Responsive Navigation</title>
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <header class="menu">
+           <div class="menu-wrap">
+               <img src="https://wingotours.site/wp-content/uploads/2022/09/logo-with-text-white.png" class="logo-img" alt="Logo">
+               <input type="checkbox" id="checkbox">
+               <nav>
+                   <ul>
+                       <li><a href="#">Tours</a></li>
+                       <li><a href="#">Service</a></li>
+                       <li><a href="#">Our Mission</a></li>
+                       <li><a href="#">About us</a></li>
+                       <li><a href="#">Contact</a></li>
+                   </ul>
+               </nav>
+               <label for="checkbox">
+                   <i class="fa fa-bars menu-icon"></i>
+               </label>
+           </div>
+       </header>
+   </body>
+
+
 <!-- Banner -->
 <section class="banner {{ .style }}">
     <div class="content">
