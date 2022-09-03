@@ -7,6 +7,6 @@ content : |
   
 button:
   label : "Get Started"
-  link : "#first"
+  link : "#tours"
 image : "images/bannern1.jpg"
 

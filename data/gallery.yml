@@ -1,5 +1,6 @@
 title: "About us"
 style: "style2 medium lightbox onscroll-fade-in"
+id: "about"
 content: |
   <div style="text-align: left;">
     <p>
