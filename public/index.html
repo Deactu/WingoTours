@@ -14,6 +14,7 @@
     <meta name="theme-color" content="#ffffff">	
     <link rel="icon" type="image/png" sizes="32x32" href="images/main_logo_32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/main_logo_16x16.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	
 	
 	
@@ -76,7 +77,7 @@
        display: inline-block;
        padding: 0px;
         
-       color: #DAE1E7;
+       color: #fff;
        text-decoration: none;
        letter-spacing: 0.05em;
    }
@@ -116,15 +117,211 @@
            padding-left: 20px;
        }
    }
+
+
+   *, *:after, *:before { 
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box; 
+}
+ 
+ 
+form {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 30px 30px 6px 30px;
+    min-width: 320px;
+    max-width: 520px;
+    width: 100%;
+    border: 1px solid rgba(120,120,120,.7);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(277, 79, 70, 0.9); 
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+}
+ 
+textarea, input{
+    display:block;    
+    margin-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box; 
+    color:#fff;
+    font-weight: 300;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+}
+ 
+textarea{
+    overflow:hidden;
+    width: 100%;
+    height: 110px;
+    border: 1px solid rgba(255,255,255,.6);
+    background: rgba(255, 255, 255, 0.4); 
+}
+ 
+input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+}
+input[type=submit] {
+    cursor:pointer;
+}
+input.name {
+   background: rgba(255, 255, 255, 0.4); 
+   padding-left:25px;
+}
+input.email {
+   background: rgba(255, 255, 255, 0.4);
+   padding-left:25px;
+}
+input.message {
+   background: rgba(255, 255, 255, 0.4);
+   padding-left:25px;
+}
+::-webkit-input-placeholder {
+   color: #fff;
+}
+:-moz-placeholder{ 
+   color: #fff; 
+}
+::-moz-placeholder {
+   color: #fff;
+}
+:-ms-input-placeholder {  
+   color: #fff; 
+}
+input:focus, textarea:focus { 
+   background-color: rgba(0, 0, 0, 0.2);
+   -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+   -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+   box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+   overflow: hidden; 
+}
+:focus::-webkit-input-placeholder { color:transparent; }
+:focus::-moz-placeholder { color:transparent; }
+:focus::placeholder { color:transparent; }
+ 
+ 
+.btn {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+        border-radius: 4px;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fd2828), to(#ff0202));
+    background: -webkit-linear-gradient(top, from(#fd2828), to(#ff0202));
+    background: -moz-linear-gradient(top, #6da5a3, #416b68);
+    background: -ms-linear-gradient(top, #6da5a3, #416b68);
+    background: -o-linear-gradient(top, #6da5a3, #416b68);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    color: #e1e1e1;
+    outline: none;
+}
+.btn:hover {
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+    background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+    background: -moz-linear-gradient(top, #77b2b0, #416b68);
+    background: -ms-linear-gradient(top, #77b2b0, #416b68);
+    background: -o-linear-gradient(top, #77b2b0, #416b68);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+    color: #fff;
+ }
+.btn:active {
+    margin-top:1px;
+    border: 1px solid #333333;
+    background: #ffCC00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffCC00), to(#ff6600));
+    background: -webkit-linear-gradient(top, #ffcc00, #ff6600);
+    background: -moz-linear-gradient(top, #ffcc00, #ff6600);
+    background: -ms-linear-gradient(top, #ffcc00, #ff6600);
+    background: -o-linear-gradient(top, #ffcc00, #ff6600);
+    background-image: -ms-linear-gradient(top, #ffcc00 0%, #ff6600 100%);
+    -webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    color: #fff;
+}
+ 
+ 
+ 
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  visibility: hidden;
+ 
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  position: fixed;  
+ 
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+   -o-transition: opacity .5s;
+   transition: opacity .5s;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+.modal {
+ top: 0;
+ right: 0;
+ left: 0;
+ width: 50%;
+ z-index: 10001;
+ 
+ opacity: 0;
+ display: block;
+ visibility: hidden;
+ position: absolute;
+ 
+ -webkit-transition: opacity 500ms ease-in;
+ -moz-transition: opacity 500ms ease-in;
+ transition: opacity 500ms ease-in; 
+}
+.overlay:target+.modal{
+  top: 25%;
+  visibility: visible;
+  opacity: 1;
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .modal {
+       width: 95%;
+    }
+}
+ 
+@media only screen and (min-width: 459px) and (max-width: 767px) {
+    .modal {
+       width:85%;  
+    }
+}
    </style>
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Responsive Navigation</title>
-       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-       <link rel="stylesheet" href="styles.css">
-   </head>
-   <body>
        <header class="menu">
            <div class="menu-wrap">
                <img src="images/logo.png" class="logo-img" alt="Logo">
@@ -143,18 +340,31 @@
                </label>
            </div>
        </header>
-   </body>
+
+
+
+<a href="#x" class="overlay" id="form1"></a>
+<form class="modal">
+     <input name="name" placeholder="Your name:" class="name" />
+     <input name="name" placeholder="Your E-mail:" class="name"/>
+       <input name="emailaddress" placeholder="Your Phone:" class="email" type="email"/>
+       <input name="emailaddress" placeholder="Your Age:" class="email" type="email"/>
+       <textarea rows="4" cols="50" name="subject" placeholder="Enter your message:" class="message"></textarea>
+     <input name="submit" class="btn" type="submit" value="Send" />
+ </form>
+
 
 
 
 <section class="banner style2 orient-center content-align-center image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
-    <div class="content">
+    <div class="content" style="background-color: rgba(255, 255, 255, 0.6);">
         <h1>Wingo Tours</h1>
         <p class="major"><h2>NEW VISION IN WINE TOURISM: WINE TASTING BUS</h2>
 </p>
         
+        
         <ul class="actions stacked">
-            <li><a href="#tours" class="button primary large wide smooth-scroll-middle">Get Started</a></li>
+            <li><a href="#form1" class="button primary large wide">Book Now</a></li>
         </ul>
     </div>
     <div class="image">
@@ -518,32 +728,37 @@
         <div style="display: flex; justify-content: space-evenly; align-items: center; flex-direction: row; flex-flow: row wrap;">
             
                 <div>
-    <img src="images/partners/traveldash.png" style="max-height: 100px; max-width: 250px;">
+    <img src="images/partners/traveldash1.png" style="max-height: 100px; max-width: 250px;">
 </div>
 
             
                 <div>
-    <img src="images/partners/italia.png" style="max-height: 100px; max-width: 250px;">
+    <img src="images/partners/italia1.png" style="max-height: 100px; max-width: 250px;">
 </div>
 
             
                 <div>
-    <img src="images/partners/gtmotors.png" style="max-height: 100px; max-width: 250px;">
+    <img src="images/partners/gtgroup1.png" style="max-height: 100px; max-width: 250px;">
 </div>
 
             
                 <div>
-    <img src="images/partners/a1.jpg" style="max-height: 100px; max-width: 250px;">
+    <img src="images/partners/a11.jpg" style="max-height: 100px; max-width: 250px;">
 </div>
 
             
                 <div>
-    <img src="images/partners/tbilisiwine.png" style="max-height: 100px; max-width: 250px;">
+    <img src="images/partners/tbilisiwine1.png" style="max-height: 100px; max-width: 250px;">
 </div>
 
             
                 <div>
-    <img src="images/partners/liberty.png" style="max-height: 100px; max-width: 250px;">
+    <img src="images/partners/liberty1.png" style="max-height: 100px; max-width: 250px;">
+</div>
+
+            
+                <div>
+    <img src="images/partners/philip1.png" style="max-height: 100px; max-width: 250px;">
 </div>
 
             
@@ -563,7 +778,7 @@
                     class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
                 
                 <li><a target="_blank" href="https://facebook.com/WinGoTours" 
-                    class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    class="icon brands style2 fa-facebook"><span class="label">Facebook</span></a></li>
                 <li><a target="_blank" href="mailto:info@wingo.tours" 
                     class="fav icon style2 fa-envelope"><span class="label">Email</span></a></li>
                 <li><a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g294195-d14135104-Reviews-Wingo_Tours-Tbilisi.html" 
